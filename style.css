@@ -1,0 +1,40 @@
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  background-color: #cdcdcd;
+  
+}
+.carousel .carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+.carousel .carousel-item.active {
+  left: 0;
+  transition: all 0.3s ease-out;
+}
+.carousel .carousel-item div {
+  height: 100%;
+  width: 100%;
+}
+.carousel .carousel-item .red {
+  background-color:white;
+}
+.carousel .carousel-item .green {
+  background-color:white;
+}
+.carousel .carousel-item .yellow {
+  background-color: white;
+}
+.carousel .carousel-item .violet {
+  background-color:white;
+}
